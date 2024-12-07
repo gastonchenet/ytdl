@@ -19,7 +19,8 @@ def search(query: str):
   results = Search(query, filters=filters)
 
   for i, video in enumerate(results.videos):
-    print(f'{i + 1}. {video.title} ({math.floor(video.length / 60)}:{str(video.length % 60).rjust(2, '0')}) - {video.watch_url}')
+    duration = f"{math.floor(video.length / 60)}:{str(video.length % 60).rjust(2, '0')}"
+    print(f'{i + 1}. {video.title} ({duration}) - {video.watch_url}')
 
 def download(url: str, *, settings: dict):
   if not url:

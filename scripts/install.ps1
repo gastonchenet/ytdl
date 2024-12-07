@@ -2,7 +2,7 @@
 
 # Initializing variables
 $YTDLRoot = if ($env:YTDL_INSTALL) { $env:YTDL_INSTALL } else { "$Home\.ytdl" }
-$YTDLPath = "$YTDLRoot\ytdl"
+$YTDLPath = "$YTDLRoot\ytdl.exe"
 
 $FileName="ytdl-win-x64"
 $URL = "https://github.com/gastonchenet/ytdl/releases/latest/download/$FileName.exe"

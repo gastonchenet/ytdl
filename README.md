@@ -4,7 +4,6 @@
 [![GitHub license](https://img.shields.io/github/license/gastonchenet/ytdl)](https://github.com/gastonchenet/ytdl/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/gastonchenet/ytdl)](https://github.com/gastonchenet/ytdl/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/gastonchenet/ytdl)](https://github.com/gastonchenet/ytdl/pulls)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gastonchenet/ytdl/CI)](https://github.com/gastonchenet/ytdl/actions/workflows/ci.yml)
 
 ## Description
 
